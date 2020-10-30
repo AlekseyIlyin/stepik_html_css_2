@@ -120,6 +120,33 @@ p {
     margin-right: 40px;
 }
 
+.block_hero {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background: url(../img/main-bg-01.jpg) center center;
+    background-size: cover;
+    //background-position: center center;
+}
+
+.block_hero_container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.block_hero_message {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+
 #the-team {
     width: 100%;
     padding: 32px 0px;
